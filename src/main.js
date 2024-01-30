@@ -22,7 +22,7 @@ function handleClicked(e) {
   if (navbar && navbar.contains(e.target)) {
     navbar.style.top = "-100%";
   } else {
-    console.log("we clicked outside");
+    return;
   }
 }
 window.addEventListener("click", handleClicked, true);
