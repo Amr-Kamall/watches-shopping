@@ -1057,6 +1057,10 @@ body {
     height: 520px;
     width: 250px;
   }
+  .home-img img {
+    width: 70%;
+    padding: 180px 0 100px 0;
+  }
 }
 
 @media (max-width: 503px) {
