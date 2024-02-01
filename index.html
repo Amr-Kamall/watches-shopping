@@ -19,6 +19,18 @@
     <title>watches shopping</title>
   </head>
   <body>
+    <div class="shopping-cart">
+      <div class="label"></div>
+      <span class="close-icon-cart">
+        <i class="bi bi-x-lg"></i>
+      </span>
+      <h1 class="shopping-title">My Cart</h1>
+      <div class="shopping-container"></div>
+      <div class="more-details">
+        <p class="num-items"></p>
+        <p class="total-price">$2342</p>
+      </div>
+    </div>
     <header class="header" id="home">
       <div class="navbar">
         <div class="logo">
@@ -197,7 +209,12 @@
             class="news-letter-inp"
             placeholder="Enter your email"
           />
-          <input type="submit" value="SUBSCRIBE" class="news-letter-btn" />
+          <input
+            type="submit"
+            required
+            value="SUBSCRIBE"
+            class="news-letter-btn"
+          />
         </form>
       </div>
     </section>
