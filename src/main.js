@@ -24,7 +24,7 @@ bar.addEventListener("click", function () {
 });
 
 close.addEventListener("click", function () {
-  navbar.style.top = "-100%";
+  navbar.style.top = "-120%";
 });
 
 links.forEach((link) =>
