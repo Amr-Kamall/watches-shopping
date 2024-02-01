@@ -655,7 +655,7 @@ body {
   flex-direction: column;
   gap: 10px;
   justify-content: start;
-  width: 100px;
+  width: 125px;
 }
 .cart-name {
   font-size: 20px;
@@ -1120,6 +1120,11 @@ body {
   }
   .new-container {
     grid-template-columns: repeat(1, 80%);
+  }
+}
+@media (max-width: 400px) {
+  .more-details {
+    gap: 200px;
   }
 }
 @media (max-width: 362px) {

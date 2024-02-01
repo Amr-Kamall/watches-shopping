@@ -174,7 +174,7 @@ function generateWatchingCarts() {
       })
       .join("");
   } else {
-    label.innerHTML = `<h1>empty cart</h1>`;
+    label.innerHTML = `<h1>cart is empty</h1>`;
     shoppingTitle.innerHTML = "";
     moreDetails.innerHTML = "";
   }
