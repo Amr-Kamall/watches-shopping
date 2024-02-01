@@ -1109,6 +1109,21 @@ body {
     font-size: 16px;
     font-weight: 500;
   }
+  .cart-box {
+    margin-bottom: 25px;
+  }
+  .cart-data {
+    gap: 7px;
+  }
+  .cart-name {
+    font-size: 18px;
+  }
+  .cart-buttons {
+    margin-top: 13px;
+  }
+  .plus-minus-btns {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 403px) {
