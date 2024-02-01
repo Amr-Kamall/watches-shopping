@@ -36,7 +36,7 @@ links.forEach((link) =>
 
 function handleClicked(e) {
   if (navbar && navbar.contains(e.target)) {
-    navbar.style.top = "-100%";
+    navbar.style.top = "-120%";
   } else {
     return;
   }
