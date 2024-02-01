@@ -1080,6 +1080,11 @@ body {
     justify-content: start;
   }
 }
+@media (max-width: 460px) {
+  .logo span {
+    font-size: 15px;
+  }
+}
 @media (max-width: 433px) {
   .social-home .social-list {
     left: -60px;
