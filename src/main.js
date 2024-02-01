@@ -24,7 +24,7 @@ bar.addEventListener("click", function () {
 });
 
 close.addEventListener("click", function () {
-  navbar.style.top = "-120%";
+  navbar.style.top = "-110%";
 });
 
 links.forEach((link) =>
@@ -36,7 +36,7 @@ links.forEach((link) =>
 
 function handleClicked(e) {
   if (navbar && navbar.contains(e.target)) {
-    navbar.style.top = "-120%";
+    navbar.style.top = "-110%";
   } else {
     return;
   }

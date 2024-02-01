@@ -913,7 +913,7 @@ body {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: -120%;
+    top: -110%;
     right: 0;
     left: -70px;
     bottom: 0;
