@@ -44,6 +44,17 @@ body {
 .shopping-icons span img {
   cursor: pointer;
 }
+
+.cart-nums {
+  position: absolute;
+  top: -10px;
+  left: 51px;
+  background-color: var(--body-color-dark);
+  padding: 0px 3px;
+  color: var(--first-color-dark);
+  font-size: 14px;
+  border-radius: 2px;
+}
 .navbar {
   display: flex;
   justify-content: center;
@@ -1091,6 +1102,9 @@ body {
   }
   .news-letter-inputs {
     width: 100%;
+  }
+  .cart-nums {
+    font-size: 12px;
   }
 }
 @media (max-width: 423px) {
