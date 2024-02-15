@@ -34,10 +34,12 @@ closeShoppingCart.addEventListener("click", function () {
 
 bar.addEventListener("click", function () {
   navbar.style.top = "0%";
+  document.body.style.overflow = "hidden";
 });
 
 close.addEventListener("click", function () {
   navbar.style.top = "-110%";
+  document.body.style.overflow = "auto";
 });
 
 links.forEach((link) =>
@@ -50,6 +52,7 @@ links.forEach((link) =>
 function handleClicked(e) {
   if (navbar && navbar.contains(e.target)) {
     navbar.style.top = "-110%";
+    document.body.style.overflow = "auto";
   } else {
     return;
   }
