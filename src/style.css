@@ -51,12 +51,13 @@ body {
 
 .shopping-icons span i {
   cursor: pointer;
-  color: #000;
+  /* color: #000; */
+  color: var(--body-color-dark);
   font-size: 17px;
 }
-.bi-sun {
-  width: 20px;
+.bi-grid {
   height: 20px;
+  width: 100px;
 }
 
 .cart-nums {

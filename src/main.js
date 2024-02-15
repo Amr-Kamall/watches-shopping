@@ -189,6 +189,7 @@ function generateWatchingCarts() {
     label.innerHTML = `<h1>cart is empty</h1>`;
     shoppingTitle.innerHTML = "";
     moreDetails.innerHTML = "";
+    shoppingContainer.innerHTML = "";
   }
   // localStorage.setItem("basket", JSON.stringify(basket));
   updateCartNumber();
@@ -242,8 +243,8 @@ function removeItem(id) {
   // console.log(searchIndex);
   // basket = basket.filter((ele) => ele.id !== selectedItem.id);
   basket.splice(searchIndex, 1);
-  generateWatchingCarts();
   localStorage.setItem("basket", JSON.stringify(basket));
+  generateWatchingCarts();
 }
 
 function calcItems() {
