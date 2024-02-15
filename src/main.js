@@ -9,8 +9,19 @@ let closeShoppingCart = document.querySelector(".close-icon-cart");
 let label = document.querySelector(".label");
 let shoppingTitle = document.querySelector(".shopping-title");
 let moreDetails = document.querySelector(".more-details");
+let header = document.querySelector("header");
 let basket = JSON.parse(localStorage.getItem("basket")) || [];
-// let numItems = document.querySelector(".num-items");
+let icons = document.querySelectorAll(".shopping-icons span i");
+
+document.addEventListener("scroll", function () {
+  if (window.scrollY >= 48) {
+    header.style.background = "#1f1f1f";
+    icons.forEach((icon) => (icon.style.color = "#f2f2f2"));
+  } else {
+    icons.forEach((icon) => (icon.style.color = "#1f1f1f"));
+    header.style.background = "none";
+  }
+});
 
 shoppingCartIcon.addEventListener("click", function () {
   shoppingCart.style.left = "0%";
