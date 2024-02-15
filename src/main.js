@@ -25,9 +25,11 @@ document.addEventListener("scroll", function () {
 
 shoppingCartIcon.addEventListener("click", function () {
   shoppingCart.style.left = "0%";
+  document.body.style.overflow = "hidden";
 });
 closeShoppingCart.addEventListener("click", function () {
   shoppingCart.style.left = "100%";
+  document.body.style.overflow = "auto"; //here
 });
 
 bar.addEventListener("click", function () {
